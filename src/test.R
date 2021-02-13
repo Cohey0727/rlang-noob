@@ -21,3 +21,12 @@ var <- 'foo'
 as.numeric(var)
 
 # コードフォーマットはctrl+A, ctrl+shift+A
+
+# packageのinstallにはinstall.packagesを用いる
+install.packages("tidyverse")
+install.packages("purrr")
+install.packages("lubridate")
+
+# packageの利用にはlibraryを用いる
+library(lubridate)
+
